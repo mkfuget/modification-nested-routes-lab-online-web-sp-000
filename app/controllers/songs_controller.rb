@@ -66,6 +66,7 @@ class SongsController < ApplicationController
         @in_song = false
         redirect_to artist_songs_path(@artist)
       end
+    end
   end
 
   def update
