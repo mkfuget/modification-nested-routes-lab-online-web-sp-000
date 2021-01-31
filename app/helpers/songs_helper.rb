@@ -3,7 +3,7 @@ module SongsHelper
     if in_song
       "<%= f.collection_select :artist_id, Artist.all, :id, :name %>"
     else
-      "<%= f.label :artist_name %><%= f.text_field :artist_name %>"
+      "f.label :artist_name %><%= f.text_field :artist_name"
     end
   end
 end
